@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="../styles.css">
+        <title>Authcode</title>
+    </head>
+
+    <body>
+        <h2>saxo-py authentication</h2>
+        <div class="hero" id="main">
+            <input type="input" id="authcode" value="Your browser does not support JavaScript." readonly><br><br>
+            <button type="button" onclick="document.getElementById('authcode').select(); document.execCommand('copy')">Copy</button>
+
+            <script>
+                var p = new URLSearchParams(window.location.search);
+                if (p.has("code")) {
+                    document.getElementById("authcode").value = p.get("code");
+                } else {
+                    document.getElementById("authcode").value = "Authentication failed.";
+                }
+            </script>
+        </div>
+    </body>
+
+    <footer>gttkeith @ github</footer>
+</html>

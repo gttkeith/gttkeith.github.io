@@ -1,9 +1,6 @@
-body {
-    background-color: #333333;
-}
-
 * {
-    font: Helvetica, sans-serif;
+    background-color: #333333;
+    font: "Helvetica Neue", Helvetica, sans-serif;
     color: #f3f3f3;
     text-align: center;
 }
@@ -18,12 +15,9 @@ a {
     font-size: 1.1em;
 }
 
-footer {
-    color: #777777;
-    position: absolute;
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%, -5%);
+button, input {
+    background-color: #555555;
+    font-size: 1.1em;
 }
 
 .hero {
@@ -31,4 +25,12 @@ footer {
     top: 33%;
     left: 50%;
     transform: translate(-50%, -67%);
+}
+
+footer {
+    color: #777777;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -5%);
 }
