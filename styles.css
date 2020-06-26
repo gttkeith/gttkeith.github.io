@@ -1,0 +1,34 @@
+body {
+    background-color: #333333;
+}
+
+* {
+    font: Helvetica, sans-serif;
+    color: #f3f3f3;
+    text-align: center;
+}
+
+h1 {
+    font-variant: small-caps;
+    font-size: 3em;
+}
+
+a {
+    color: rgb(56, 149, 255);
+    font-size: 1.1em;
+}
+
+footer {
+    color: #777777;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}
+
+.hero {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -67%);
+}
