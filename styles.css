@@ -5,6 +5,13 @@
     text-align: center;
 }
 
+.hero {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -67%);
+}
+
 h1 {
     font-variant: small-caps;
     font-size: 3em;
@@ -17,10 +24,16 @@ a {
 
 button, input {
     background-color: #555555;
+    border: outset;
+    border-width: 1px;
     border-radius: 8px;
-    border: none;
     font-size: 1.1em;
     padding: 8px 8px;
+}
+
+input:read-only {
+    border: none;
+    width: 480px;
 }
 
 button:hover {
@@ -29,13 +42,6 @@ button:hover {
 
 button:active {
     background-color: #444444;
-}
-
-.hero {
-    position: absolute;
-    top: 33%;
-    left: 50%;
-    transform: translate(-50%, -67%);
 }
 
 footer {
