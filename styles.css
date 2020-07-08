@@ -18,7 +18,9 @@ a {
 button, input {
     background-color: #555555;
     border-radius: 8px;
+    border: none;
     font-size: 1.1em;
+    padding: 8px 8px;
 }
 
 .hero {
