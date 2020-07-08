@@ -23,6 +23,14 @@ button, input {
     padding: 8px 8px;
 }
 
+button:hover {
+    background-color: #666666;
+}
+
+button:active {
+    background-color: #444444;
+}
+
 .hero {
     position: absolute;
     top: 33%;
