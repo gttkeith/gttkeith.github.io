@@ -41,7 +41,7 @@ button, input {
 input:read-only {
     color: var(--background-color);
     border: none;
-    width: 480px;
+    width: 420px;
 }
 
 button:hover {
