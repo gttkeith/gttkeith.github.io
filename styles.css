@@ -10,7 +10,7 @@ h1 {
     font-size: 3em;
 }
 
-a:not(footer) {
+a:not(#footer) {
     color: rgb(56, 149, 255);
     font-size: 1.1em;
 }
