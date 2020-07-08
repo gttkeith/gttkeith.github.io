@@ -1,10 +1,11 @@
 :root {
+  --background-color: #333333;
   --interactable-color: rgb(56, 149, 255);
   --interactable-size: 1.1em;
 }
 
 * {
-    background-color: #333333;
+    background-color: var(--background-color);
     font: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #f3f3f3;
     text-align: center;
@@ -29,7 +30,7 @@ a {
 
 button, input {
     background-color: #555555;
-    border: outset;
+    border: solid;
     border-color: var(--interactable-color);
     border-width: 1px;
     border-radius: 8px;
@@ -38,6 +39,7 @@ button, input {
 }
 
 input:read-only {
+    color: var(--background-color);
     border: none;
     width: 480px;
 }
