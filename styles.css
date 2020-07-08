@@ -1,5 +1,6 @@
 :root {
   --background-color: #333333;
+  --subtle-color: #777777;
   --interactable-color: rgb(56, 149, 255);
   --interactable-size: 1.1em;
 }
@@ -39,7 +40,7 @@ button, input {
 }
 
 input:read-only {
-    color: var(--background-color);
+    color: var(--subtle-color);
     border: none;
     width: 420px;
 }
@@ -53,7 +54,7 @@ button:active {
 }
 
 footer {
-    color: #777777;
+    color: var(--subtle-color);
     position: absolute;
     top: 95%;
     left: 50%;
