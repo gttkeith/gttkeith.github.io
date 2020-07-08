@@ -1,3 +1,8 @@
+:root {
+  --interactable-color: rgb(56, 149, 255);
+  --interactable-size: 1.1em;
+}
+
 * {
     background-color: #333333;
     font: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -18,17 +23,17 @@ h1 {
 }
 
 a {
-    color: rgb(56, 149, 255);
-    font-size: 1.1em;
+    color: var(--interactable-color);
+    font-size: var(--interactable-size);
 }
 
 button, input {
     background-color: #555555;
     border: outset;
-    border-color: rgb(56, 149, 255);
+    border-color: var(--interactable-color);
     border-width: 1px;
     border-radius: 8px;
-    font-size: 1.1em;
+    font-size: var(--interactable-size);
     padding: 8px 8px;
 }
 
