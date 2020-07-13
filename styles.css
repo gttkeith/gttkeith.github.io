@@ -5,11 +5,17 @@
   --interactable-size: 1.2em;
 }
 
+@font-face {
+    font-family: header;
+    src: url("fonts/Rubik.ttf") format("truetype");  
+}
+
 * {
     background-color: var(--background-color);
-    font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #f3f3f3;
     text-align: justify;
+    line-height: 1.5;
 }
 
 .hero {
@@ -26,14 +32,15 @@
 }
 
 .main {
-    width: 52%;
+    width: 62%;
 }
 
 .aux {
-    width: 32%;
+    width: 22%;
 }
 
 h1,h2,h3,h4,h5,h6 {
+    font-family: header;
     font-variant: small-caps;
     text-align: center;
 }
@@ -66,6 +73,13 @@ button:hover {
 button:active {
     color: white;
     background-color: var(--interactable-color);
+}
+
+.pill {
+    border: none;
+    border-radius: 12px;
+    font-size: 0.8em;
+    padding: 2px 6px;
 }
 
 footer {
