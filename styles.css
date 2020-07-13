@@ -1,15 +1,15 @@
 :root {
   --background-color: #333333;
   --subtle-color: #777777;
-  --interactable-color: rgb(56, 149, 255);
-  --interactable-size: 1.1em;
+  --interactable-color: #3895ff;
+  --interactable-size: 1.2em;
 }
 
 * {
     background-color: var(--background-color);
     font: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #f3f3f3;
-    text-align: center;
+    text-align: justify;
 }
 
 .hero {
@@ -17,11 +17,25 @@
     top: 33%;
     left: 50%;
     transform: translate(-50%, -67%);
+    text-align: center;
 }
 
-h1 {
+.column {
+    float: left;
+    padding: 2% 4%;
+}
+
+.main {
+    width: 52%;
+}
+
+.aux {
+    width: 32%;
+}
+
+h1,h2,h3,h4,h5,h6 {
     font-variant: small-caps;
-    font-size: 3em;
+    text-align: center;
 }
 
 a {
@@ -29,10 +43,10 @@ a {
     font-size: var(--interactable-size);
 }
 
-button, input {
+button,input {
     background-color: #555555;
     border: solid;
-    border-color: var(--interactable-color);
+    border-color: var(--subtle-color);
     border-width: 1px;
     border-radius: 8px;
     font-size: var(--interactable-size);
@@ -42,15 +56,16 @@ button, input {
 input:read-only {
     color: var(--subtle-color);
     border: none;
-    width: 420px;
+    text-align: center;
 }
 
 button:hover {
-    background-color: #666666;
+    border-color: var(--interactable-color);
 }
 
 button:active {
-    background-color: #444444;
+    color: white;
+    background-color: var(--interactable-color);
 }
 
 footer {
