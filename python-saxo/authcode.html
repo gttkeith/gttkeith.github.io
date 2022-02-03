@@ -2,14 +2,17 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="../assets/sakura.css">
+        <link rel="stylesheet" href="../assets/styles.css">
         <title>Authcode</title>
     </head>
 
     <body>
         <h2>pysaxo authentication</h2>
-        <div class="hero" id="main">
-            <input type="input" id="authcode" value="Your browser does not support JavaScript." readonly><br><br>
+        
+        <div><p>
+            Paste this code into python-saxo to complete authentication<br><br>
+            <input type="input" id="authcode" style="width:420px;" value="Your browser does not support JavaScript." readonly><br><br>
             <button type="button" onclick="document.getElementById('authcode').select(); document.execCommand('copy')">Copy</button>
 
             <script>
@@ -20,8 +23,8 @@
                     document.getElementById("authcode").value = "Authentication failed.";
                 }
             </script>
-        </div>
+        </p></div>
     </body>
 
-    <footer>gttkeith @ github</footer>
+    <hr><footer>rendered with <a href='https://github.com/oxalorg/sakura'>sakura css</a> | gttkeith @ github | <a href='https://github.com/gttkeith/gttkeith.github.io'>src</a></footer>
 </html>
