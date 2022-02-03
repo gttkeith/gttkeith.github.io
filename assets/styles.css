@@ -1,3 +1,12 @@
+:root {
+    --background-color: #001337;
+    --content-color: #c1d0df;
+    --content-dim-color: #949faa;
+    --link-color: #69cace;
+    --hover-color: #81e0d8;
+    --box-background-color: #004269;
+}
+
 @font-face {
     font-family: header;
     src: url("Rubik.ttf") format("truetype");  
@@ -6,4 +15,9 @@
 h1,h2,h3,h4,h5,h6 {
     font-family: header;
     font-variant: small-caps;
+}
+
+footer {
+    font-size: 0.67em;
+    color: var(--content-dim-color);
 }
