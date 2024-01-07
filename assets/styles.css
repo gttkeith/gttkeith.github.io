@@ -1,10 +1,10 @@
 :root {
-    --background-color: #001337;
-    --content-color: #c1d0df;
-    --content-dim-color: #949faa;
-    --link-color: #69cace;
-    --hover-color: #81e0d8;
-    --box-background-color: #004269;
+    --background-color: #370013;
+    --content-color: #e2d9c1;
+    --content-dim-color: #afa294;
+    --link-color: #ce9869;
+    --hover-color: #e8b68b;
+    --box-background-color: #694200;
 }
 
 @font-face {
