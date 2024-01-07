@@ -1,7 +1,8 @@
 :root {
     --background-color: #370013;
-    --content-color: #e2d9c1;
-    --content-dim-color: #afa294;
+    --header-color: #ffa236ef;
+    --content-color: #ffecd9;
+    --content-dim-color: #ffffff52;
     --link-color: #ce9869;
     --hover-color: #e8b68b;
     --box-background-color: #694200;
@@ -9,7 +10,7 @@
 
 @font-face {
     font-family: header;
-    src: url("Rubik.ttf") format("truetype");  
+    src: url("Sarabun/Sarabun-Light.ttf") format("truetype");
 }
 
 body {
@@ -28,9 +29,14 @@ h3 {
     font-size: 2em;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: header;
-    font-variant: small-caps;
+    color: var(--header-color);
 }
 
 footer {
